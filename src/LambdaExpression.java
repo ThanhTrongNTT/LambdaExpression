@@ -5,8 +5,11 @@
  * Time     : 08:50
  * Filename : LambdaExpression
  */
+// Khởi tạo class LambdaExpression
 public class LambdaExpression {
+    // Tạo một variable thuộc interface Message
     Message helloWorld = message -> System.out.println("\n"+message);
+    // Tạo một variable thuộc interface SumIntegers
     SumIntegers sumIntegers = integers -> {
         Integer result = 0;
         for(int i = 0;i<integers.length;i++ ){
@@ -15,6 +18,8 @@ public class LambdaExpression {
         return result;
     };
 }
+
+// Khởi tạo một class chạy các examples
 class LambdaExpressionExample{
     public static void example(){
         LambdaExpression lambdaExpression = new LambdaExpression();
