@@ -5,6 +5,7 @@
  * Time     : 08:51
  * Filename : SumIntegers
  */
+@FunctionalInterface
 public interface SumIntegers {
     Integer sumIntegers(int ...args);
 }

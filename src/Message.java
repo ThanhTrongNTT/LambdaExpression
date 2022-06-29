@@ -5,6 +5,7 @@
  * Time     : 08:51
  * Filename : Message
  */
+@FunctionalInterface
 public interface Message {
     void showMessage(String message);
 }
